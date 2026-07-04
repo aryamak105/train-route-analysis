@@ -1,206 +1,301 @@
-# train-route-analysis
-This repository contains my work and projects completed during my Data Science Internship at Sysslan IT Solution. The internship focused on applying data science concepts, including data analysis, data preprocessing, visualization, and machine learning techniques to solve real-world problems.  
+-----------------------------------------------------TRAIN ROUTE ANALYSIS & JOURNEY TIME PREDICTION--------------------------------------------------------------
 
-## 📖 Project Description
 
-Train Route Analysis is a Python-based Data Science project developed to analyze railway route data and provide meaningful insights such as route information, station details, shortest paths, and travel analysis. The project demonstrates data preprocessing, analysis, visualization, and Python programming skills through multiple development levels.
+## 📌 Project Overview
 
-This project was successfully completed during my **Data Science Internship** at **Sysslan IT Solutions**.
+This project was developed during my **Data Science Internship** at **Sysslan IT Solutions**.
 
----
+The objective of this project is to analyze train journey data, perform data preprocessing, explore meaningful insights through visualization, and build a Machine Learning model capable of predicting train journey duration using **Linear Regression**.
 
-# 🎯 Internship Details
-
-- **Intern Name:** Arya Makwana
-- **Role:** Data Science Intern
-- **Organization:** Sysslan IT Solutions
-- **Project:** Train Route Analysis
-- **Internship Domain:** Data Science
-- **Status:** Successfully Completed ✅
+The project is divided into six levels, where each level focuses on a different stage of the Data Science lifecycle—from understanding raw data to deploying a complete prediction workflow.
 
 ---
 
-# 🛠️ Technologies Used
+# 👨‍💻 Author
+
+**Arya Makwana**
+
+**Role:** Data Science Intern
+
+**Organization:** Sysslan IT Solutions
+
+LinkedIn:
+https://www.linkedin.com/in/arya-makwana-79665b375
+
+GitHub:
+https://github.com/aryamak105
+
+---
+
+# 🎯 Project Objectives
+
+- Understand transportation datasets
+- Perform data cleaning and preprocessing
+- Engineer useful features
+- Explore hidden patterns in train journey data
+- Create professional visualizations
+- Build a Machine Learning prediction model
+- Evaluate prediction accuracy
+- Develop a complete journey time prediction system
+
+---
+
+# 🛠 Technologies Used
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
+- Scikit-Learn
 - VS Code
-- Git
-- GitHub
-
 ---
 
 # 📂 Project Levels
 
-## 🔹 Level 1 – Data Collection & Exploration
+---
 
-### Objectives
-- Import the railway dataset.
-- Understand the dataset structure.
-- Explore rows, columns, and data types.
-- Identify missing values.
-- Generate descriptive statistics.
+# 📘 Level 1 — Data Overview
 
-### Tasks Performed
-- Loaded dataset using Pandas
-- Displayed dataset information
-- Checked null values
-- Explored train and station data
-- Generated summary statistics
+### Description
+
+Develop a foundational understanding of the dataset.
+
+### Tasks Completed
+
+- Dataset inspection
+- Total rows and columns
+- Train-wise route summary
+- Basic statistics
+- Missing value analysis
 
 ### Skills Learned
-- Data Loading
-- Data Exploration
+
+- Pandas Basics
 - Data Inspection
+- Descriptive Statistics
+- Dataset Understanding
 
 ---
 
-## 🔹 Level 2 – Data Cleaning & Preprocessing
+# 🧹 Level 2 — Data Cleaning & Feature Engineering
 
-### Objectives
-- Clean raw railway data.
-- Prepare the dataset for analysis.
+### Description
 
-### Tasks Performed
+Prepare the dataset for analysis and machine learning.
+
+### Tasks Completed
+
 - Removed duplicate records
 - Handled missing values
-- Corrected inconsistent data
-- Converted data types
-- Prepared clean dataset
+- Standardized arrival/departure time
+- Calculated journey duration
+- Created distance and stop-related features
 
 ### Skills Learned
+
 - Data Cleaning
+- Feature Engineering
+- Datetime Handling
 - Data Preprocessing
-- Data Transformation
 
 ---
 
-## 🔹 Level 3 – Data Analysis
+# 📊 Level 3 — Exploratory Data Analysis (EDA)
 
-### Objectives
-- Analyze train route information.
-- Extract useful insights.
+### Description
 
-### Tasks Performed
-- Route analysis
-- Station-wise analysis
-- Distance analysis
-- Train frequency analysis
-- Statistical calculations
+Explore patterns and relationships within train journey data.
+
+### Tasks Completed
+
+- Compared journey duration across routes
+- Identified busiest stations
+- Identified least busy stations
+- Analyzed distance vs duration relationship
+- Extracted meaningful business insights
 
 ### Skills Learned
-- Exploratory Data Analysis (EDA)
-- Statistical Analysis
-- Data Interpretation
+
+- EDA
+- GroupBy Operations
+- Correlation Analysis
+- Analytical Thinking
 
 ---
 
-## 🔹 Level 4 – Data Visualization
+# 📈 Level 4 — Visualization & Pattern Analysis
 
-### Objectives
-- Visualize railway data for better understanding.
+### Description
 
-### Tasks Performed
-- Bar Charts
-- Pie Charts
-- Line Graphs
-- Distribution Analysis
-- Comparative Visualizations
+Visualize data for better understanding and storytelling.
+
+### Tasks Completed
+
+- Route-wise journey duration charts
+- Station-wise traffic visualization
+- Distance vs journey duration plots
+- Pattern interpretation
 
 ### Skills Learned
+
+- Matplotlib
 - Data Visualization
-- Graph Interpretation
-- Business Insights
+- Pattern Recognition
+- Data Storytelling
 
 ---
 
-## 🔹 Level 5 – Final Analysis & Insights
+# 🤖 Level 5 — Machine Learning Model
 
-### Objectives
-- Summarize findings from the complete dataset.
+### Description
 
-### Tasks Performed
-- Generated final observations
-- Identified important patterns
-- Prepared project conclusions
-- Documented insights
+Build a predictive model for estimating train journey duration.
+
+### Tasks Completed
+
+- Prepared feature matrix
+- Train-Test Split
+- Built Linear Regression Model
+- Generated predictions
+- Evaluated using:
+
+  - MAE
+  - RMSE
 
 ### Skills Learned
-- Insight Generation
-- Reporting
-- Decision Making
+
+- Machine Learning
+- Linear Regression
+- Model Evaluation
+- Scikit-Learn
 
 ---
 
-# ✨ Features
+# 🚀 Level 6 — Final Data Science Project
 
-- Railway Dataset Analysis
-- Data Cleaning
-- Statistical Analysis
-- Route Analysis
-- Data Visualization
-- Insight Generation
-- Python-Based Implementation
-- Modular Code Structure
+### Description
+
+Integrated all previous levels into a complete prediction system.
+
+### Tasks Completed
+
+- End-to-end workflow
+- Data preprocessing
+- Prediction system
+- Actual vs Predicted visualization
+- Final result analysis
+
+### Skills Learned
+
+- End-to-End Data Science
+- Predictive Analytics
+- Complete ML Workflow
+- Result Interpretation
+
+
+# 📊 Machine Learning Workflow
+
+Raw Dataset
+
+↓
+
+Data Understanding
+
+↓
+
+Data Cleaning
+
+↓
+
+Feature Engineering
+
+↓
+
+Exploratory Data Analysis
+
+↓
+
+Visualization
+
+↓
+
+Model Training
+
+↓
+
+Prediction
+
+↓
+
+Performance Evaluation
+
+↓
+
+Final Prediction System
 
 ---
 
-# 📁 Project Structure
+# 📈 Model Evaluation Metrics
 
-```
-Train-Route-Analysis/
-│
-├── Dataset/
-├── Level1/
-├── Level2/
-├── Level3/
-├── Level4/
-├── Level5/
-├── Outputs/
-├── main.py
-├── requirements.txt
-└── README.md
-```
+The model performance was evaluated using:
 
-# 📊 Project Outcomes
+- Mean Absolute Error (MAE)
+- Root Mean Square Error (RMSE)
 
-Through this project, I successfully:
+These metrics measure prediction accuracy and overall model performance.
 
-- Explored railway datasets
-- Cleaned and preprocessed data
-- Performed route analysis
-- Generated meaningful insights
-- Created data visualizations
-- Applied Data Science concepts using Python
+# 🌟 Key Learning Outcomes
 
----
+✔ Data Analysis
 
-# 📚 Skills Gained
+✔ Data Cleaning
 
-- Python Programming
-- Data Science
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Data Visualization
-- Problem Solving
-- Git & GitHub
-- Project Documentation
+✔ Feature Engineering
+
+✔ Exploratory Data Analysis
+
+✔ Data Visualization
+
+✔ Machine Learning
+
+✔ Linear Regression
+
+✔ Model Evaluation
+
+✔ Python Programming
+
+✔ Problem Solving
 
 ---
 
-# 👩‍💻 About Me
-
-**Arya Makwana**
-
-**Data Science Intern | Python Developer | Aspiring Data Analyst**
-
----
 
 # 🙏 Acknowledgement
 
-I sincerely thank **Sysslan IT Solutions** for providing me with the opportunity to work as a **Data Science Intern**. This internship helped me strengthen my Python programming, data analysis, and problem-solving skills through hands-on industry-oriented projects.
+I would like to express my sincere gratitude to **Sysslan IT Solutions** for providing me with this valuable **Data Science Internship** opportunity.
+
+This internship helped me strengthen my practical knowledge of:
+
+- Python Programming
+- Data Analysis
+- Data Cleaning
+- Feature Engineering
+- Exploratory Data Analysis
+- Data Visualization
+- Machine Learning
+- Model Evaluation
+- End-to-End Data Science Projects
+
+Working on this project enhanced my technical skills, analytical thinking, and real-world problem-solving abilities.
+
+Thank you to the entire **Sysslan IT Solutions** team for their guidance, structured learning path, and continuous support throughout the internship.
 
 ---
 
+
+## Thank You ❤️
+
+**Arya Makwana**
+
+**Data Science Intern**
+
+**Sysslan IT Solutions**
